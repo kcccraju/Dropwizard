@@ -1,6 +1,6 @@
 package com.wizardtest.dropwizardtest;
 
-import com.yammer.dropwizard.config.Configuration;
+import io.dropwizard.Configuration;
 
 public class ConfigurationTest extends Configuration {
 }
