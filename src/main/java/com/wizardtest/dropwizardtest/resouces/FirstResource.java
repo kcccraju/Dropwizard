@@ -37,7 +37,7 @@ public class FirstResource {
         return count + " record saved...";
     }
 
-    @Path("/getGeoloactionByIpAddress/")
+    @Path("/getGeoloactionByIpAddress/{ipAddress}")
     @POST
     @Produces(MediaType.APPLICATION_JSON)
     public List<Geoloaction> getGeoloactionByIpAddress(@PathVariable String ipAddress) {
